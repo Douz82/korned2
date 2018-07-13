@@ -7,14 +7,13 @@
 
 body {
 
-  height: 100vh;
-  position: relative;
+  height: 100vh; 
   background: #333;
   color: #fff;
 }
 
 .ocrloader {
-  position:absolute;
+  position: absolute;
   width: 100px;
   height: 100px;
   position: absolute;
@@ -24,7 +23,7 @@ body {
   backface-visibility: hidden;
 }
 .ocrloader span {
-  position: absolute;
+
   left: 0;
   top: 0;
   width: 100%;
