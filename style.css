@@ -22,18 +22,7 @@ body {
   transform: translate(-50%, -50%);
   backface-visibility: hidden;
 }
-.ocrloader span {
 
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 20px;
-  background-color: rgba(238, 238, 238, 0.8);
-  z-index:33000000000000001;
-  transform: translateY(10%);
-  animation: move 0.8s cubic-bezier(0, 10, 0, 5);
-  animation-iteration-count: infinite;
-}
 .ocrloader > div {
   z-index: 1;
   position: absolute;
