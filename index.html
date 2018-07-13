@@ -10,7 +10,7 @@
 </head>
 <body>
   
- <div class="ocrloader">
+ <div class="ocrloader" style="position: absolute; z-index:33000000000000000;">
   <em></em>
   <div align="center">
   scan area
@@ -18,7 +18,7 @@
   <span></span>  
 </div> 
  
- <video style="width:100%; height:100%;" id="preview"></video>
+ <video style="width:100%; height:100%; z-index:1;" id="preview"></video>
   <script type="text/javascript">
     
           let scanner = new Instascan.Scanner({ video: document.getElementById('preview') });
