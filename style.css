@@ -6,7 +6,7 @@
 }
 
 body {
-  position: relative;
+
   height: 100vh;
   position: relative;
   background: #333;
@@ -14,6 +14,7 @@ body {
 }
 
 .ocrloader {
+  position:absolute;
   width: 100px;
   height: 100px;
   position: absolute;
